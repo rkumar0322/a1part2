@@ -22,7 +22,6 @@ void test1() {
 
 void test2() {
     
-
     String *s1 = new String("Hello");
     String *s2 = new String("World");
     String *s3 = new String("Earth");
