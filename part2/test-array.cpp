@@ -25,7 +25,7 @@ void test2() {
     String* s1 = new String("Hello");
     String* s2 = new String("World");
     String* s3 = new String("Earth");
-    StrArray* a = new StrArray(10);
+    Array* a = new Array(10);
     a->push_back(s1);
     a->push_back(s2);
     t_true(a->get(0)->equals(s1));
@@ -45,7 +45,7 @@ void test3() {
     String* s1 = new String("Hello");
     String* s2 = new String("World");
     String* s3 = new String("Earth");
-    StrArray* a = new StrArray(10);
+    Array* a = new Array(10);
     a->push_back(s1);
     a->push_back(s2);
     t_true(a->get(0)->equals(s1));
@@ -64,14 +64,14 @@ void test4() {
     String* s1 = new String("Hello");
     String* s2 = new String("World");
     String* s3 = new String("Earth");
-    StrArray* a1 = new StrArray(10);
+    Array* a1 = new Array(10);
     a1->push_back(s1);
     a1->push_back(s2);
-    StrArray* a2 = new StrArray(10);
+    Array* a2 = new Array(10);
     a2->push_back(s1);
     a2->push_back(s2);
     t_true(a1->equals(a2));
-    StrArray* a3 = new StrArray(10);
+    Array* a3 = new Array(10);
     a3->push_back(s1);
     a3->push_back(s3);
     t_false(a1->equals(a3));
