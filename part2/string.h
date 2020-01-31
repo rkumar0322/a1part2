@@ -4,27 +4,27 @@
 class String : public Object {
 
         public:
-                int length;
-                char* buffer;
+	
+	//constructor 
+	//Initialize an empty string
+	String() {
+	}
 
-                String() {
-                        length = 0;
-                        buffer = 0;
-                }
-
-                String(char* c) {
-                        length = strlen(c);
-                        buffer = new char[length];
-                        for(int i = 0; i < length; i++) {
-                                buffer[i] = c[i];
-                        }
-		}
-
-	bool equals(String* s) {
+	//Initialize string with an array of characters
+	String(const char* c) {
+	}
+	
+	//destructor 
+	~String() {                     
+	}
+	
+	//compare o with this string for quality
+	bool equals(Object* o) {
 		
 	}
 	
-	int size() {
+	//return size of this string
+	size_t size() {
 		
 	}
 };
