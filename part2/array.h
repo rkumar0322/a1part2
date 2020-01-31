@@ -63,15 +63,19 @@ public:
 };
 
 class Float: public Object {
-public:
+
+  public:
 
     //Constructor:
     //initializing an empty float
     Float() {
     }
+    
     //constructor for passing in a float
     Float(float y) {
+        
     }
+    
     ~Float() {
     }
     //compares o with this float for equality 
@@ -80,8 +84,9 @@ public:
     }
 };
 
+
 class Integer: public Object {
-public:
+  public:
 
     //Constructor:
     //initializing an empty Integer
@@ -106,8 +111,10 @@ public:
     //initializing an empty bool 
     Bool() {
     }
+    
     //constructor for passing in a bool
-    Bool(bool c) {
+    Bool(bool b) {
+        
     }
     //destructor
     ~Bool() {

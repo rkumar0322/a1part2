@@ -22,10 +22,12 @@ void test1() {
 
 void test2() {
     
+
     String *s1 = new String("Hello");
     String *s2 = new String("World");
     String *s3 = new String("Earth");
     Array *a = new Array(10);
+
     a->push_back(s1);
     a->push_back(s2);
     t_true(a->get(0)->equals(s1));
@@ -46,6 +48,7 @@ void test3() {
     String *s2 = new String("World");
     String *s3 = new String("Earth");
     Array *a = new Array(10);
+
     a->push_back(s1);
     a->push_back(s2);
     t_true(a->get(0)->equals(s1));
@@ -72,6 +75,7 @@ void test4() {
     a2->push_back(s2);
     t_true(a1->equals(a2));
     Array *a3 = new Array(10);
+
     a3->push_back(s1);
     a3->push_back(s3);
     t_false(a1->equals(a3));
