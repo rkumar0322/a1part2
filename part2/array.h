@@ -70,6 +70,11 @@ public:
     Float() {
     }
     
+    //constructor for passing in a float
+    Float(float y) {
+        
+    }
+    
     ~Float() {
     }
     //compares o with this float for equality 
@@ -84,6 +89,11 @@ public:
     //Constructor:
     //initializing an empty Integer
     Integer() {
+    }
+    
+    //constructor for passing in an integer
+    Integer(int y) {
+        
     }
     
     //destructor 
@@ -101,6 +111,11 @@ public:
     //Constructor:
     //initializing an empty bool 
     Bool() {
+    }
+    
+    //constructor for passing in a bool
+    Bool(bool b) {
+        
     }
    
     //destructor
