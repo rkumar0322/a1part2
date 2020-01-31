@@ -63,7 +63,8 @@ public:
 };
 
 class Float: public Object {
-public:
+
+  public:
 
     //Constructor:
     //initializing an empty float
@@ -83,19 +84,17 @@ public:
     }
 };
 
+
 class Integer: public Object {
-public:
+  public:
 
     //Constructor:
     //initializing an empty Integer
     Integer() {
     }
-    
-    //constructor for passing in an integer
+    //constructor for passing in an int
     Integer(int y) {
-        
     }
-    
     //destructor 
     ~Integer() {
     }
@@ -117,7 +116,6 @@ public:
     Bool(bool b) {
         
     }
-   
     //destructor
     ~Bool() {
     }
