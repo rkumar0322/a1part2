@@ -69,7 +69,9 @@ public:
     //initializing an empty float
     Float() {
     }
-    
+    //constructor for passing in a float
+    Float(float y) {
+    }
     ~Float() {
     }
     //compares o with this float for equality 
@@ -85,7 +87,9 @@ public:
     //initializing an empty Integer
     Integer() {
     }
-    
+    //constructor for passing in an int
+    Integer(int y) {
+    }
     //destructor 
     ~Integer() {
     }
@@ -102,7 +106,9 @@ public:
     //initializing an empty bool 
     Bool() {
     }
-   
+    //constructor for passing in a bool
+    Bool(bool c) {
+    }
     //destructor
     ~Bool() {
     }
