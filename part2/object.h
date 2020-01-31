@@ -11,6 +11,15 @@
 class Object {
   public:
   
+  //constructor
+  //Initialize an empty Object
+  Object() {
+  }
+  
+  //destructor 
+  ~Object() {
+  }
+  
   //compares o with this Object for equality
   bool equals(Object* o);
 
