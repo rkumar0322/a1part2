@@ -16,8 +16,8 @@ class Array: public Object {
 public:
 
     //Constructor:
-    //initializing an array with input size
-    Array(size_t limit) {
+    //initializing an empty array
+    Array() {
     }
     
     //destructor
@@ -66,8 +66,8 @@ class StrArray: public Object {
 public:
     
     //Constructor:
-    //initializing a string array with input size
-    StrArray(size_t limit) {   
+    //initializing an empty string array
+    StrArray() {   
     }
     
     //destructor 
@@ -116,8 +116,8 @@ class FloatArray: public Object {
 public:
 
     //Constructor:
-    //initializing a float array with input size
-    FloatArray(size_t limit) {
+    //initializing an empty float array
+    FloatArray() {
     }
     
     ~FloatArray() {
@@ -165,8 +165,8 @@ class IntArray: public Object {
 public:
 
     //Constructor:
-    //initializing an int array with input size
-    IntArray(size_t limit) {
+    //initializing an empty int array
+    IntArray() {
     }
     
     //destructor 
@@ -214,8 +214,8 @@ class BoolArray: public Object {
 public:
 
     //Constructor:
-    //initializing a bool array with input size
-    BoolArray(size_t limit) {
+    //initializing an empty bool array 
+    BoolArray() {
     }
    
     //destructor
